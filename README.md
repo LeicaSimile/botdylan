@@ -15,9 +15,12 @@ Activate the virtual environment.
 * Navigate to `env/Scripts`.
 > `activate`
 
-**If virtual environment is set up, always activate the virtual environment before testing and developing!**
+**End of optional steps.**
 
 Install required dependencies.
 
 4. Navigate back to the root directory (`botdylan`).
 > `pip install -r requirements.txt`
+
+
+**If virtual environment is set up, always activate the virtual environment before testing and developing!**
