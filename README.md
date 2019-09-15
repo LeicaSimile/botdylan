@@ -11,8 +11,7 @@ Best songwriter ever.
 Set up the virtual environment.
 > `py -m venv env`
 
-Activate the virtual environment.
-* Navigate to `env/Scripts`.
+Navigate to `env/Scripts` and activate the virtual environment.
 > `activate`
 
 **== End of optional steps.**
