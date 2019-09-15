@@ -6,7 +6,7 @@ Best songwriter ever.
 2. Clone the repository onto your system.
 3. Navigate to the repository on your system.
 
-**Optional but recommended steps:**
+**== Optional but recommended steps:**
 
 Set up the virtual environment.
 > `py -m venv env`
@@ -15,11 +15,9 @@ Activate the virtual environment.
 * Navigate to `env/Scripts`.
 > `activate`
 
-**End of optional steps.**
+**== End of optional steps.**
 
-Install required dependencies.
-
-4. Navigate back to the root directory (`botdylan`).
+4. Navigate back to the root directory (`botdylan`) and install required dependencies.
 > `pip install -r requirements.txt`
 
 
