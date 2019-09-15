@@ -2,7 +2,7 @@
 Best songwriter ever.
 
 ## Setup
-1. Install Python 3.7.
+1. Install Python 3.7 (x64 - **important!**).
 2. Clone the repository onto your system.
 3. Navigate to the repository on your system.
 
