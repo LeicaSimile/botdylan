@@ -7,15 +7,17 @@ Best songwriter ever.
 3. Navigate to the repository on your system.
 
 **Optional but recommended steps:**
+
 Set up the virtual environment.
-> py -m venv env
+> `py -m venv env`
 
 Activate the virtual environment.
 * Navigate to `env/Scripts`.
-> activate
+> `activate`
 
 **If virtual environment is set up, always activate the virtual environment before testing and developing!**
 
 Install required dependencies.
+
 4. Navigate back to the root directory (`botdylan`).
-> pip install -r requirements.txt
+> `pip install -r requirements.txt`
