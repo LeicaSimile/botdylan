@@ -2,6 +2,7 @@ from django.shortcuts import render
 import lyricsgenius
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from .constants import GENIUS_ACCESS_TOKEN
 
 @api_view(["GET"])
 def artist(request):
