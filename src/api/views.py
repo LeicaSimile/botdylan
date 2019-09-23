@@ -14,7 +14,9 @@ def song(request):
 
 @api_view(["GET"])
 def songs_by_artist(request):
-    return
+    genius = lyricsgenius.Genius(GENIUS_ACCESS_TOKEN)
+    artist = genius.search_artist(request.GET.get("artist"))
+    return {"songs": [song.to_dict() for song in artist.songs]}
 
 @api_view(["GET"])
 def lyrics(request):
