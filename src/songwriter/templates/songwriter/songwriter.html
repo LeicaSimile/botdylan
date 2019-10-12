@@ -3,6 +3,10 @@
         <title>Bot Dylan</title>
     </head>
     <body>
-        <p>placeholder</p>
+        <form action="{% url 'api:songs_by_artist' %}" method="GET">
+            Artist: 
+            <input id="artist" name="artist" type="text">
+            <input value="Write Song" type="submit">
+        </form>
     </body>
 </html>
