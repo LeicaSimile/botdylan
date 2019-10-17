@@ -23,8 +23,16 @@ Navigate to `env/Scripts` and activate the virtual environment.
 **If virtual environment is set up, always activate the virtual environment before testing and developing!**
 
 ## Running the server
-1. Navigate to `src`.
+Use a separate terminal to activate each server.
+
+### Activate the backend server
+1. Navigate to `backend`.
 2. Run the server.
 > `py manage.py runserver`
 
-3. View the web page at http://127.0.0.1:8000/.
+### Activate the frontend server
+1. Navigate to `frontend`.
+2. Run the server.
+> `npm start`
+
+3. Go to http://localhost:3000 on your browser.
