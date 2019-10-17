@@ -10,7 +10,7 @@ function App() {
             <label className="label has-text-left has-text-grey is-uppercase">Artist Name</label>
             <div className="field has-addons">
               <div className="control">
-                <input placeholder="e.g. Bob Dylan" id="artist" name="artist" type="text" className="input is-large" />
+                <input placeholder="e.g. Bob Dylan" id="artist" name="artist" type="text" className="input is-large" autofocus />
               </div>
               <div className="control">
                 <input type="submit" value="Write Song" className="button is-large is-primary" />
